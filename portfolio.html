@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Triveni Gollamoodi</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main-content">
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="profile-img">
+                <img src="profile1.jpg" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+                </div>
+                <h1>Triveni Gollamoodi</h1>
+                <p>Frontend Developer</p>
+            </div>
+        </section>
+
+    
+        <section id="about" class="section about">
+            <div class="section-title"><h2>About Me</h2></div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Triveni</h3>
+                    <p>I'm a passionate frontend developer who loves creating beautiful and functional web experiences. As a fresher in the field, I bring fresh perspectives and a strong desire to learn and grow.</p>
+                    <p>I believe in writing clean, maintainable code and creating user-friendly interfaces that make a difference. My journey in web development started with curiosity and has evolved into a passion for crafting digital experiences.</p>
+                </div>
+                
+                <div class="about-image">
+                    <div class="profile-img"><img src="profile1.jpg" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div>
+                </div>
+                <div class="button">
+                    <a href="resume.pdf" download="resume.pdf">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+    
+        <section id="skills" class="section skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card html-skill">
+                    <div class="skill-icon"></div>
+                    <h4>HTML</h4>
+                    <p>Semantic markup, accessibility, and modern HTML standards for creating well-structured web pages with clean and organized code.</p>
+                </div>
+                <div class="skill-card css-skill">
+                    <div class="skill-icon"></div>
+                    <h4>CSS</h4>
+                    <p>Advanced styling, Flexbox, Grid, animations, responsive design principles, and creating beautiful user interfaces.</p>
+                </div>
+                <div class="skill-card java-skill">
+                    <div class="skill-icon"></div>
+                    <h4>Java</h4>
+                    <p>Object-oriented programming, data structures, algorithms, and building robust applications with clean code practices.</p>
+                </div>
+                <div class="skill-card sql-skill">
+                    <div class="skill-icon"></div>
+                    <h4>SQL</h4>
+                    <p>Database management, complex queries, data manipulation, and designing efficient database structures for applications.</p>
+                </div>
+            </div>
+        </section>
+
+    
+        <section id="projects" class="section projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🌐</div>
+                    <div class="project-content">
+                        <h4>TicTacToe</h4>
+                        <p>Developed an interactive Tic Tac Toe game in Java with a user-friendly interface. Implemented core game logic to detect wins and draws, and added an AI opponent for single-player mode to enhance gameplay. </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="project-image">🌐</div>
+                    <div class="project-content">
+                        <h4>Guarding Your Ride By Using lot </h4>
+                        <p>Developed a smart vehicle security system using Arduino, GSM, and GPS modules. The system sends SMS alerts upon unauthorized access and allows users to disable the vehicle ignition remotely. Integrated GPS provides real-time location tracking to enhance theft prevention. </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">c++</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section id="contact" class="section contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">gollamooditriveni@gmail.com</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">+91 8179762660</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">bengaluru,karnataka, India</div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Triveni Gollamoodi. All rights reserved.</p>
+        <p>Frontend Developer | Creating beautiful web experiences</p>
+        <div class="social-links">
+            <a href="https://githhub.com/trivenigollamoodi" class="social-link"><img src="gith.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/triveni-gollamoodi-763582276" class="social-link"><img src="link.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+</html>
